@@ -1,0 +1,177 @@
+* {
+    font-family: "Montserrat", sans-serif;;
+}
+
+/* classe primo navbar */
+.primoNavbar{
+    color: white ;
+    background-color: black;
+    height: 50px;
+    animation: navbar-black;
+}
+
+.bg-custom-color {
+    background-color: rgb(1, 1, 64) !important;
+}
+#navbar {
+    transition: all 0.5s;
+
+}
+.bgdropd {
+    background-color: rgb(1, 1, 64) !important;
+
+}
+.bgbtnsearch{
+    color: yellow !important;
+    background-color:  rgb(1, 1, 64) !important ;
+    border: 1px solid yellow !important;
+ 
+}
+.button-38 {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-38:hover {
+    background-color: rgb(249,250,251);
+  }
+  
+  .button-38:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .button-38:focus-visible {
+    box-shadow: none;
+  }
+/* header */
+.hero {
+    height: 700px;
+    /* background-color: rgb(136, 136, 224); */
+    background: radial-gradient(circle closest-corner at 100% 50%,yellow, rgb(136, 136, 224));
+    border-radius: 2%;
+}
+
+.fotoHeader{
+    background-image:  url(media/casa.jpg) ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 2% ;
+
+
+
+    /* background-size:auto; */
+}
+@media(max-width:991.98px){
+    .fotoHeader{
+        color: white;
+    }
+}
+/* sezione */
+.card-custom {
+    background-image: url(/media/divano.jpg);
+    background-size: cover;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+   
+}
+
+.card-custom1 {
+    background-image: url(/media/esterni.jpg);
+    background-size: cover;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+   
+}
+
+.card-custom2 {
+    background-image: url(/media/pianta.jpg);
+    background-size: cover;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+
+.altezza {
+    height: 1000px;
+}
+
+/* chiamata asincrona */
+.box{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 2%;
+}
+
+.custom-img{
+    height:200px;
+    object-fit: cover;
+}
+
+
+.num-custom{
+ height: 200px;
+ border: 1px solid black;
+ border-radius: 5%;
+ display: flex;
+ align-items: center;
+ background-color: #111827;
+
+}
+/* footer */
+.footer-custom{
+    margin: 0;
+    color: yellow;
+    background-color: #111827;
+}
+.social-custom{
+    list-style: none;
+
+}
+.singlesocialcustom{
+    border: 1px solid yellow;
+    padding: 15px;
+    border-radius: 50%;
+}
+.social-custom1{
+    
+    width: 50%;
+    margin-top: 5px;
+    /* margin-left: 300px;
+    margin-right: 200px; */
+    padding: 30px;
+   
+    
+   
+}
+@media(max-width:991.98px){
+    .social-custom1{
+        display: flex;
+        justify-content: center;
+    }
+}
